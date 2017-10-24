@@ -1,25 +1,25 @@
 *{
     font-family: 'Amatic SC', cursive; 
+    background: #EEDFF9;
 }
 
-div{
-   
-}
-
+/*estilo con pseudoclase*/
 div :hover{
-    
+    filter: grayscale(80%);
+    -webkit-transform: rotateY(180deg);
+    -webkit-transform-style: preserve-3d;
+    transform: rotateY(180deg);
+    transform-style: preserve-3d;
+    box-shadow: 21px 21px 50px #999;
 }
-
 
 
 h1{
-    outline: 1px solid yellow;
     margin-top: 70px;
     margin-left: 62px;
 }
 
 img{
-    outline: 1px solid green;
     max-width: 100%;
 }
 
@@ -36,13 +36,13 @@ figure{
 
 p{
     position: absolute;
-    color: white;
+    color: black;
     margin: 0px;
     font-size: 16px;
+    font-weight: 600;
 }
 
 .box{
-    outline: 1px solid purple;
     width: 200px;
     height: 200px;
     box-sizing: border-box;
