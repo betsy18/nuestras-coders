@@ -3,14 +3,14 @@
 }
 
 div{
-    outline: 1px solid red;
-    width: 200px;
-    height: 200px;
-    box-sizing: border-box;
-    float: left;
-    margin: 20px;
-    margin-left: 30px;
+   
 }
+
+div :hover{
+    
+}
+
+
 
 h1{
     outline: 1px solid yellow;
@@ -32,17 +32,51 @@ figure{
     width: 900px;
     height: 500px;
     position: relative;
-    display: inline-block;
 }
 
 p{
     position: absolute;
-    top: 200px;
-    left: 135px;
-    bottom: 300px;
+    color: white;
     margin: 0px;
     font-size: 16px;
-    outline: 1px solid brown;
-    color: white;
+}
 
+.box{
+    outline: 1px solid purple;
+    width: 200px;
+    height: 200px;
+    box-sizing: border-box;
+    float: left;
+    margin: 20px;
+    margin-left: 30px;
+}
+
+.text1{
+    top: 200px;
+    left: 135px;
+}
+
+.text2{
+    top: 200px;
+    left: 415px;
+}
+
+.text3{
+    top: 200px;
+    left: 665px;
+}
+
+.text4{
+    top: 440px;
+    left: 156px;
+}
+
+.text5{
+    top: 440px;
+    left: 383px;
+}
+
+.text6{
+    top: 440px;
+    left: 655px;
 }
