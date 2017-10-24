@@ -8,14 +8,41 @@ div{
     height: 200px;
     box-sizing: border-box;
     float: left;
+    margin: 20px;
+    margin-left: 30px;
 }
 
 h1{
     outline: 1px solid yellow;
-    margin-left: 38px;
+    margin-top: 70px;
+    margin-left: 62px;
 }
 
 img{
     outline: 1px solid green;
     max-width: 100%;
+}
+
+img[alt="ale"]{
+    height: 200px;
+    width: 200px;
+}
+
+figure{
+    width: 900px;
+    height: 500px;
+    position: relative;
+    display: inline-block;
+}
+
+p{
+    position: absolute;
+    top: 200px;
+    left: 135px;
+    bottom: 300px;
+    margin: 0px;
+    font-size: 16px;
+    outline: 1px solid brown;
+    color: white;
+
 }
